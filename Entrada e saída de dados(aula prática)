@@ -1,6 +1,20 @@
 #include <stdio.h>
 
+//Desfio Super Trufo - Países
+//Tema 1 - Cadastro de Cartas
+//No nível novato você deve criar as carts representando as cidades utilizando scanf para entrada de dadose printf para exibir as informações .
+
+/*scanf("%formato, variável")
+
+%d Imprime um inteiro no formato decimal.   %i Equivalente a %d.   %f Imprime um número de ponto flutuante.   
+
+%e Imprime um número de ponto flutuante na notação científica.    %c Imprime um único caractere    
+
+%s Imprime uma cadeia (string) de caracteres  */
+
 int main() {
+//Área para definição das variáveis para armazenar as propriedades das cidades
+//Área paraentrada de dados
     char estado;
     char codigo_da_carta [6];
     char cidade [20];
@@ -9,14 +23,10 @@ int main() {
     float pib;
     int numerodepontosturisticos;
 
+//Área para exibição dos dados das cidades 
+
     //                  ("Cidade 01\n");
-/* scanf("%formato, variável")
 
-%d Imprime um inteiro no formato decimal.   %i Equivalente a %d.   %f Imprime um número de ponto flutuante.   
-
-%e Imprime um número de ponto flutuante na notação científica.    %c Imprime um único caractere    
-
-%s Imprime uma cadeia (string) de caracteres  */
 
     printf("Digite o estado: ");
     scanf("%c", &estado);
